@@ -1,18 +1,27 @@
+
 {
-    "dogs": [
-      {
-        "id": 1,
-        "name": "Cherry",
-        "age": "2",
-        "place": "Visakhapatnam",
-        "gender": "Male"
-      },
-      {
-        "id": 1,
-        "name": "Tommy",
-        "age": "3",
-        "place": "Banglore",
-        "gender": "Female"
-      }
-    ]
-  }
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password",
+      "profession": "Web Developer",
+      "skills": ["HTML", "CSS", "JavaScript"],
+      "hourly_rate": 25,
+      "profile_picture": "profile1.jpg",
+	  "isBooked" : false
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "password",
+      "profession": "Graphic Designer",
+      "skills": ["Photoshop", "Illustrator"],
+      "hourly_rate": 30,
+      "profile_picture": "profile2.jpg",
+	  "isBooked" : true
+    }
+  ]
+}
